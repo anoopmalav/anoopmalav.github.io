@@ -1,0 +1,87 @@
+<html>
+<body>
+<div class="markdown-body">
+  <h1>
+<a id="user-content-project-structure" class="anchor" href="#project-structure" aria-hidden="true"></a>Project Structure</h1>
+
+<pre><code>.
+|-- AUTHORS
+|-- CHANGELOG
+|-- config
+|   |-- __init__.py
+|   |-- local.py
+|   |-- local.py.example
+|   |-- nginx
+|   |   |-- project_name
+|   |   `-- project_name-ssl
+|   |-- settings.py
+|   |-- supervisor
+|   |   |-- project_name_celerybeat.conf
+|   |   |-- project_name_celery.conf
+|   |   `-- project_name.conf
+|   |-- urls.py
+|   `-- wsgi.py
+|-- Contributing.md
+|-- docs
+|-- INSTALL.md
+|-- LICENSE
+|-- manage.py
+|-- project_name
+|   |-- apps
+|       |-- app_one
+|       `-- app_two
+|   |-- celery.py
+|   |-- __init__.py
+|   `-- libs
+|       |-- accounts
+|       |   |-- admin.py
+|       |   |-- forms.py
+|       |   |-- __init__.py
+|       |   |-- migrations
+|       |   |   |-- 0001_initial.py
+|       |   |   `-- __init__.py
+|       |   |-- models.py
+|       |   |-- tests.py
+|       |   `-- views.py
+|       `-- regions
+|           |-- fixtures
+|           |-- __init__.py
+|           |-- migrations
+|           |   |-- 0001_initial.py
+|           |   `-- __init__.py
+|           |-- models.py
+|           |-- serializers.py
+|           |-- urls.py
+|           `-- views.py
+|-- README.md
+|-- requirements.txt
+|-- scripts
+|   |-- celery.bash.example
+|   |-- celerybeat.bash.example
+|   |-- clean_pyc.bash
+|   |-- dump.py
+|   |-- fix_newline_eof.bash
+|   |-- fix_trailing_whitespaces.bash
+|   |-- gunicorn.bash
+|   |-- __init__.py
+|   `-- uwsgi.bash
+|-- static
+|-- templates
+|   |-- 403.html
+|   |-- 404.html
+|   `-- 500.html
+|-- tmp
+|   |-- db
+|   |-- logs
+|   `-- sockets
+`-- VERSION
+</code></pre>
+
+<h1>
+<a id="user-content-deployment" class="anchor" href="#deployment" aria-hidden="true"></a>Deployment</h1>
+
+<p>Install dependencies</p>
+
+</div>
+</body>
+</html>
